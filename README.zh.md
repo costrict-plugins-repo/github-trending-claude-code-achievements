@@ -1,0 +1,268 @@
+<div align="center">
+
+<img src="assets/icon.png" alt="Claude Code Achievements" width="128" height="128">
+
+# Claude Code Achievements
+
+### 提升你的 AI 编程技能
+
+[![npm version](https://img.shields.io/npm/v/claude-code-achievements.svg?style=for-the-badge&color=FFD700)](https://www.npmjs.com/package/claude-code-achievements)
+[![downloads](https://img.shields.io/npm/dt/claude-code-achievements.svg?style=for-the-badge&color=4CAF50)](https://www.npmjs.com/package/claude-code-achievements)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg?style=for-the-badge)](LICENSE)
+
+```
+╔══════════════════════════════════════════════════════════════╗
+║  🎮  解锁成就  •  追踪进度  •  享受编程乐趣  🎮               ║
+╚══════════════════════════════════════════════════════════════╝
+```
+
+**将你的 Claude Code 体验变成 RPG 冒险！**
+
+[快速开始](#-快速开始) · [成就](#-成就) · [命令](#-命令)
+
+**[English](README.md)** · **[Español](README.es.md)** · **[한국어](README.ko.md)** · **[日本語](README.ja.md)**
+
+</div>
+
+---
+
+## ✨ 为什么要做这个？
+
+学习 Claude Code 是一段旅程。这个插件将这段旅程变成**游戏**。
+
+- 🏆 **29 个成就** - 4 个技能树
+- 🔔 **实时通知** - 每次升级时
+- 📊 **追踪精通度** - 从新手到专家
+- 🌍 **5 种语言** 支持
+
+---
+
+## 🚀 快速开始
+
+```bash
+npx claude-code-achievements
+```
+
+就这样！开始编程，成就会自动解锁！
+
+---
+
+## 🏆 成就
+
+<table>
+<tr>
+<td width="25%" align="center">
+
+### 🌱 入门
+**4 个成就**
+
+*第一步*
+
+</td>
+<td width="25%" align="center">
+
+### ⚡ 工作流
+**10 个成就**
+
+*更聪明地工作*
+
+</td>
+<td width="25%" align="center">
+
+### 🔧 强力工具
+**10 个成就**
+
+*解锁能力*
+
+</td>
+<td width="25%" align="center">
+
+### 👑 精通
+**5 个成就**
+
+*成为传奇*
+
+</td>
+</tr>
+</table>
+
+---
+
+### 🌱 入门
+
+> *每个大师都曾是初学者*
+
+| | 成就 | 任务 |
+|:--:|------|------|
+| ✏️ | **初次接触** | 用 Claude 编辑文件 |
+| 📝 | **创造者** | 创建新文件 |
+| 🔍 | **代码侦探** | 用 Glob 或 Grep 搜索 |
+| 📋 | **项目策展人** | 创建第一个 `CLAUDE.md` |
+
+---
+
+### ⚡ 工作流
+
+> *效率是聪明的懒惰*
+
+| | 成就 | 任务 |
+|:--:|------|------|
+| 📋 | **任务规划师** | 使用 TodoWrite 管理任务 |
+| 📋 | **任务大师** | 使用 TaskCreate/TaskUpdate/TaskList |
+| 🎯 | **战略思考者** | 进入计划模式 (`Shift+Tab` × 2) |
+| 🗣️ | **沟通大师** | 让 Claude 提出澄清问题 |
+| 🌍 | **全局策展人** | 设置 `~/.claude/CLAUDE.md` |
+| 📦 | **版本控制者** | 与 Claude 一起提交 |
+| 🚀 | **发布！** | 推送到远程 |
+| 🔀 | **PR 冠军** | 使用 `gh pr create` 创建 PR |
+| 🧪 | **质量守护者** | 运行测试 |
+| 🚦 | **CI/CD 先驱** | 创建 GitHub Actions |
+
+---
+
+### 🔧 强力工具
+
+> *能力越大，生产力越高*
+
+| | 成就 | 任务 |
+|:--:|------|------|
+| 🎨 | **视觉检查员** | 分析图像/截图 |
+| 📡 | **文档猎人** | 获取并分析网页 |
+| 🤖 | **委派大师** | 用 Task 生成子代理 |
+| ⏳ | **多任务处理者** | 在后台运行命令 |
+| 🔌 | **MCP 先驱** | 使用 MCP 工具 |
+| 🌐 | **网络探索者** | 搜索网络 |
+| ⚙️ | **定制者** | 修改 Claude Code 设置 |
+| 📜 | **技能创造者** | 创建自定义技能 |
+| ⌨️ | **命令工匠** | 创建自定义斜杠命令 |
+| 🧩 | **插件探索者** | 从市场安装插件 |
+
+---
+
+### 👑 精通
+
+> *突破界限的少数精英*
+
+| | 成就 | 任务 |
+|:--:|------|------|
+| 🪝 | **自动化架构师** | 设置 Claude Code 钩子 |
+| 🔗 | **MCP 连接器** | 配置 `.mcp.json` 集成 |
+| 🤖 | **代理架构师** | 创建自定义代理 |
+| 🛡️ | **安全卫士** | 配置安全权限 |
+| 🔄 | **循环大师** | 启动自主编程循环 |
+
+---
+
+## 🎮 命令
+
+```bash
+/achievements          # 查看已解锁成就
+/achievements locked   # 查看未解锁成就 + 提示
+/achievements all      # 按类别查看所有成就
+/achievements-settings # 配置语言和通知
+```
+
+### 类别过滤
+
+```bash
+/achievements basics    # 🌱 入门
+/achievements workflow  # ⚡ 工作流
+/achievements tools     # 🔧 强力工具
+/achievements mastery   # 👑 精通
+```
+
+---
+
+## 🔔 通知
+
+解锁成就时立即通知！
+
+| 平台 | 样式 |
+|------|------|
+| 🍎 macOS | 原生通知 + 声音 |
+| 🐧 Linux | 系统通知 |
+| 🪟 Windows | Toast 通知 |
+| 💻 备用 | 终端提示 |
+
+---
+
+## 🛠️ 工作原理
+
+```
+   你: "编辑配置文件"
+              │
+              ▼
+   ┌─────────────────────┐
+   │  Claude 使用 Edit   │
+   └─────────────────────┘
+              │
+              ▼
+   ┌─────────────────────┐
+   │  🎯 钩子触发        │──▶ 成就检查
+   └─────────────────────┘
+              │
+       ┌──────┴──────┐
+       ▼             ▼
+   ┌───────┐    ┌────────┐
+   │ 🏆 +1 │    │  无    │
+   │ 解锁! │    │  继续  │
+   └───────┘    └────────┘
+```
+
+插件连接到 Claude Code 的事件系统。每次工具使用都会被追踪。达到里程碑时，你会获得奖励！
+
+---
+
+## 🌍 支持语言
+
+- 🇺🇸 English
+- 🇨🇳 中文
+- 🇪🇸 Español
+- 🇰🇷 한국어
+- 🇯🇵 日本語
+
+随时使用 `/achievements-settings` 更改
+
+---
+
+## 📂 你的进度
+
+所有进度都保存在本地：
+
+```
+~/.claude/achievements/state.json
+```
+
+重新开始你的旅程：
+```bash
+rm ~/.claude/achievements/state.json
+```
+
+---
+
+## 🤝 贡献
+
+有新成就的想法？发现了 bug？欢迎贡献！
+
+- 🏆 建议新成就
+- 🌍 添加翻译
+- 🐛 报告问题
+- ⭐ 给个 Star！
+
+---
+
+<div align="center">
+
+### 准备好开始你的旅程了吗？
+
+```bash
+npx claude-code-achievements
+```
+
+**升级。解锁成就。享受编程乐趣！**
+
+---
+
+MIT © [subinium](https://github.com/subinium)
+
+</div>
